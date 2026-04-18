@@ -1,0 +1,105 @@
+@import url('https://googleapis.com');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+}
+
+.App{
+    padding: 10px;
+    width: 55%;
+    min-width: 550px;
+    left: 50%;
+    padding: 50px;
+    border-radius: 8px;
+    border: none;
+    top: 40%;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    text-align: left;
+}
+
+img{
+    animation: spin 4s linear infinite;
+    margin-top: -10%;
+}
+
+.App h1{
+    background-color: white;
+    font-size: 35px !important;
+    margin-top: 10px;
+    color: rgb(0, 47, 255);
+    font-family: 'Tangerine', serif;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.form{
+    background-color: white;
+}
+
+.form label{
+            display: flex;
+            color: blue;
+            background-color: white;
+             font-family: 'Tangerine', serif;
+                text-shadow: 4px 4px 4px #aaa;
+                margin-bottom: 10px;
+                font-size: 20px !important;
+}
+
+.form input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 15px;
+    padding: 5px;
+    font-family: 'Tangerine', serif;
+}
+
+.main{
+    display: flex;
+    background-color: white;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.change{
+    display: flex;
+    background-color: white;
+    flex-direction:column;
+    margin-left: 50px;
+}
+
+.change label{
+      display: flex;
+            color: blue;
+            background-color: white;
+             font-family: 'Tangerine', serif;
+                text-shadow: 4px 4px 4px #aaa;
+                margin-bottom: 10px;
+                font-size: 20px !important;
+}
+
+.change select{
+     width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 15px;
+    padding: 5px;
+    font-family: 'Tangerine', serif;
+    display: flex;
+}

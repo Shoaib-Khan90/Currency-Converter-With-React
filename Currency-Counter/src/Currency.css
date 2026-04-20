@@ -49,6 +49,7 @@ img{
                 text-shadow: 4px 4px 4px #aaa;
                 margin-bottom: 10px;
                 font-size: 20px !important;
+                margin-top: 20px;
 }
 
 .form input{
@@ -81,6 +82,7 @@ img{
     background-color: white;
     flex-direction:column;
     margin-left: 50px;
+    margin-top: 20px;
 }
 
 .change label{
@@ -103,4 +105,12 @@ img{
     font-family: 'Tangerine', serif;
     display: flex;
     margin-bottom: 100px;
+}
+
+
+.h2{
+    color: green;
+    width: auto;
+    max-width: fit-content;
+    font-size: 30px;
 }
